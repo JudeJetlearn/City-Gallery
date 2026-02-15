@@ -1,0 +1,20 @@
+.propheader{
+    text-align: center;
+    color: white;
+    background-color: rgb(82, 82, 82);
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+.flexContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colum1{
+    flex: 25%;
+    max-width: 25%;
+}
