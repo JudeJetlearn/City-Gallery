@@ -23,6 +23,13 @@ body{
 .colum img{
     width: 97%;
     margin-top: 10px;
+    opacity: 0.5;
+}
+
+.colum img:hover{
+    opacity:1;
+    transform:scale(1.5,1.5);
+    border-radius:50%;
 }
 
 @media screen and (max-width:800px) {
